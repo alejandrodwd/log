@@ -9,8 +9,9 @@ The heavy task of image signal processing is offloaded to the far more powerful 
 
 This makes **log** less of a camera, and more of a **sensor data logging device**, hence the name.
 
-Goal: A durable, reliable, and affordable point and shoot memory capturer. _Feeling_ over resolution and seamless, analog-style shooting.
-Design Principles: Quality materials, robust parts, efficient computing, extreme battery life, simplicity and comfort when in doubt.
+**Goal**: A durable, reliable, and affordable point and shoot memory capturer. _Feeling_ over resolution and seamless, analog-style shooting.
+  ↓
+**Design Principles**: Quality materials, robust parts, efficient computing, extreme battery life, simplicity and comfort when in doubt.
 
 This design draws a clear parallel to film:
 - Images take time to be 'revealed' on the device.
