@@ -1,3 +1,5 @@
+**log is stil in early design, prototype coming soon!**
+
 All consumer cameras work like this: 
 - The sensor spits out a stream of 0s and 1s
 - In the processor, an **exaggerated** amount of computationally-expensive algorithms (e.g. demosaic, TNR, ...) transform those 0s and 1s into a real, viewable image with its own proprietary 'look' and color profile.
