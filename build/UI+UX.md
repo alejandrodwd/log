@@ -2,6 +2,7 @@ OFF - Nothing is on
 ON - Lives in deep sleep, only e-ink display is on
 Wakes from deep sleep on any button press
 
+
 On shutter press (no half press)
 - MCU Wake ~2ms
 - Trigger IR ~5ms
@@ -12,6 +13,7 @@ On shutter press (no half press)
 - Write to SD card ~200ms
 - Back to sleep
 
+
 On record press
 - MCU Wake ~2ms
 - Start recording ASAP, enter video protocol (MCU doesnt really sleep)
@@ -20,11 +22,13 @@ On record press
 - Finish SD write
 - Back to sleep
 
+
 On flash button
 - MCU Wake ~2ms
 - MCU refreshes e-ink display to show flash icon ~200ms
 - MCU sets flashOn flag ~1ms
 - Back to sleep
+
 
 On timer button
 - MCU Wake ~2ms
@@ -32,14 +36,17 @@ On timer button
 - MCU sets timerOn flag ~1ms
 - Back to sleep
 
+
 On focus mode button (cycles between auto, 1m and 0.5m)
 - MCU Wake ~2ms
 - MCU refreshes e-ink display to show next focus mode ~200ms
 - MCU sets focusMode state ~1ms
 - Move lens to appropriate spot (0.5, 1, or ∞ by default for AUTO) ~10ms 
 - Back to sleep
-	
+
+
 Camera LIVES in deep sleep. No such thing as it being "awake" apart from when its recording.
+
 
 
 Battery dying protocol
@@ -58,6 +65,7 @@ Plugged in from dead protocol
 - Change LED to static yellow
 
 
+
 Indicator LED Notes
 - On ending photo/video capture - green flicker to show finished SD writing, saved correctly
 - On recording video - blinking red
@@ -71,10 +79,12 @@ Indicator LED Notes
 - On power on - 1.5s green
 - On power off - 1s + 2 fast blips red
 
+
 E ink display Notes
 - Shows BATTERY percentage, SD percentage, focus mode, flash icon, timer icon
 - Only indicator of if camera is off or in deep sleep / standby
 - Charging - Nothing changes, battery percentage goes up
+
 
 Haptic notes
 - On photo capture - iPhone like cli-click
