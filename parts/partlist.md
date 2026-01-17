@@ -1,9 +1,9 @@
-- MCU: ESP32-P4 Firebeetle 2
+- MCU: **ESP32-P4 Firebeetle 2**
 - Sensor:	
-- SD Card: V30
+- SD Card: **V30**
 - Battery:
 - Flash Module:
-- IR Module: VL53L0X
+- IR Module: **VL53L0X**
 - EX LCD:
 - VF LED:
 - EX LED:
