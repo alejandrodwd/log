@@ -3,14 +3,14 @@ ON - Lives in deep sleep, only e-ink display is on
 Wakes from deep sleep on any button press
 
 On shutter press (no half press)
-	- MCU Wake ~2ms
-	- Trigger IR ~5ms
-	- MCU processes ~5ms
-	- Move lens ~10ms  (to 0.5, 1, ∞)
-	- Decide exposure ~2ms
-	- Shutter capture ?ms
-	- Write to SD card ~200ms
-	- Back to sleep
+- MCU Wake ~2ms
+- Trigger IR ~5ms
+- MCU processes ~5ms
+- Move lens ~10ms  (to 0.5, 1, ∞)
+- Decide exposure ~2ms
+- Shutter capture ?ms
+- Write to SD card ~200ms
+- Back to sleep
 
 On record press
 	- MCU Wake ~2ms
