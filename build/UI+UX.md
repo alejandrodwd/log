@@ -59,10 +59,10 @@ Plugged in from dead protocol
 - Change LED to static yellow
 
 USB C protocol
-- single port for transfer and charging
-- when plugged in, weather in data transfer or charging, usb powers system and any leftover goes to the battery.
-- button in app triggers usb mode on the camera so it doesnt auto-activate when connected to any usb-capable device - we might just want to charge
-- by default charge only
+- Single port for transfer and charging
+- When plugged in, weather in data transfer or charging, usb powers system and any leftover goes to the battery.
+- Button in app triggers usb mode on the camera so it doesnt auto-activate when connected to any usb-capable device - we might just want to charge
+- By default charge only
      
 ------------------------------------------------------------------------------------------------------------
      
