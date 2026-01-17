@@ -1,7 +1,6 @@
 OFF - Nothing is on   
-ON - Lives in deep sleep, only e-ink display is on
+ON - Lives in deep sleep, only e-ink display is on    
 Wakes from deep sleep on any button press
-       
        
 On shutter press (no half press)
 - MCU Wake ~2ms
