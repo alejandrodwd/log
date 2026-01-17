@@ -40,9 +40,9 @@ On focus mode button (cycles between auto, 1m and 0.5m)
 - Move lens to appropriate spot (0.5, 1, or ∞ by default for AUTO) ~10ms 
 - Back to sleep
 
-     
 Camera LIVES in deep sleep. No such thing as it being "awake" apart from when its recording.
      
+------------------------------------------------------------------------------------------------------------
      
 Battery dying protocol
 - Detect V below certain threshold
