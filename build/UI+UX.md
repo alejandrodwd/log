@@ -1,4 +1,4 @@
-OFF - Nothing is on
+OFF - Nothing is on   
 ON - Lives in deep sleep, only e-ink display is on
 Wakes from deep sleep on any button press
 
