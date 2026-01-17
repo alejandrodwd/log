@@ -58,7 +58,7 @@ Plugged in from dead protocol
 - Turn on E ink
 - Change LED to static yellow
      
-     
+------------------------------------------------------------------------------------------------------------
      
 Indicator LED Notes
 - On ending photo/video capture - green flicker to show finished SD writing, saved correctly
