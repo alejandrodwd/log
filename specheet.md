@@ -1,7 +1,7 @@
-capacity for:
-- 5000 photos + 5 hours video
+Battery and SD capacity for:
+- 50,000 photos / 8 hours of video
 
-battery life:
-- heavy use = 2 days
-- standard use = 4 days
-- standyby (on) = 64 days
+Expected battery life:
+- Heavy use = 2 days
+- Standard use = 4 days
+- Standby (on) = 64 days
