@@ -6,7 +6,7 @@ On shutter press (no half press)
 - MCU Wake ~2ms
 - Trigger IR ~5ms
 - MCU processes ~5ms
-- Move lens ~10ms  (to 0.5, 1, ∞)
+- Move lens ~10ms  (to x, y, z, ∞)
 - Decide exposure ~2ms
 - Shutter capture ?ms
 - Write to SD card ~200ms
@@ -15,7 +15,7 @@ On shutter press (no half press)
 On record press
 - MCU Wake ~2ms
 - Start recording ASAP, enter video protocol (MCU doesnt really sleep)
-- Ignore any press except end record OR focus mode, respect focus mode as normal
+- Ignore any press except end record OR focus mode, respect focus modes as normal
 - End recording 
 - Finish SD write
 - Back to sleep
@@ -32,11 +32,11 @@ On timer button
 - MCU sets timerOn flag ~1ms
 - Back to sleep
      
-On focus mode button (cycles between auto, 1m and 0.5m)
+On focus mode button (cycles between focus modes)
 - MCU Wake ~2ms
 - MCU refreshes e-ink display to show next focus mode ~200ms
 - MCU sets focusMode state ~1ms
-- Move lens to appropriate spot (0.5, 1, or ∞ by default for AUTO) ~10ms 
+- Move lens to appropriate spot (∞ by default for AUTO) ~10ms 
 - Back to sleep
 
 Camera LIVES in deep sleep. No such thing as it being "awake" apart from when its recording.
@@ -91,3 +91,31 @@ Haptic notes
 - On no focus grab - nothing
 - On flash not ready - short vibrate?
 - On plugged in - thu-thuck
+
+------------------------------------------------------------------------------------------------------------
+
+Focus UI
+- No half press
+- AUTO fires if IR confidence is over x%, otherwise nothing
+- Fallback fixed modes ALWAYS fire
+- For video, can toggle focus modes, but AUTO refocuses every second or two
+- Focus modes = x, y, z, ∞, AUTO (xyz depend on final optics)
+- Focus measurement from center of frame only
+- If wanting to "recompose" a shot switch to a fixed mode
+- Can use the 3x zoom etched line as rough focus square
+
+VF UI
+- Small LCD in bottom left displays current zoom level (e.g. 1.7x)
+- Small end of fiber optic cable shows indicator led in bottom right
+- LCD triggered by any zoom level >1x, off rest of time
+- Discrete etched EDGE LINES (no corners) for 2x and 3x zoom.
+- Tune VF optics for typical focus distance (no way around focus breathing)
+- VF near sensor ideally
+- 
+
+Timelapse UI - requires external module
+- Ignores a flash press, timer press and mode press
+- Has to be done in a fixed focus mode (no refocusing)
+- Recalculates exposure before shooting each time
+- This add on will come far after the first camera protoype
+
