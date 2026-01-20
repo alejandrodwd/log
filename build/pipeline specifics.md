@@ -23,27 +23,27 @@ EVmin = 3.88 (night scene)
 EV 14.148: need f/11.0 or smaller
 EV 3.88: need f/2.8 or larger
  
-**PHOTO - DAY**
-f/2.8 limit = EV13.26 (1/1000 ISO80)
-f/2.8 can be used up until EV17 -> EV13 (<13.26)
-f/11 must be used above EV17 (EV18 -> EV14 > 13.26)
+**PHOTO - DAY**    
+f/2.8 limit = EV13.26 (1/1000 ISO80)   
+f/2.8 can be used up until EV17 -> EV13 (<13.26)   
+f/11 must be used above EV17 (EV18 -> EV14 > 13.26)   
   
-**PHOTO - NIGHT (no flash)**
-crisp         f/2.8 limit = EV4.61 (1/50 ISO1600)
-motion blur   f/2.8 limit = EV1.29 (1/5 ISO1600)
-long exposure f/2.8 limit = EV-1.03 (1/1 ISO1600)
+**PHOTO - NIGHT (no flash)**   
+crisp         f/2.8 limit = EV4.61 (1/50 ISO1600)   
+motion blur   f/2.8 limit = EV1.29 (1/5 ISO1600)   
+long exposure f/2.8 limit = EV-1.03 (1/1 ISO1600)   
   
-VIDEO - DAY (2.8)
-f/2.8 limit = EV9.2 (1/60 ISO80) - smooth
+VIDEO - DAY (2.8)    
+f/2.8 limit = EV9.2 (1/60 ISO80) - smooth   
   
-**VIDEO - DAY (11)**
-f/11.0 limit = EV14.148 (1/120 ISO80) - choppy
-f/11.0 limit = EV13.148 (1/60 ISO80) - soft
-f/11 is smooth up till EV13.148 = EV17.148 without ND (as bright as it typically gets)
+**VIDEO - DAY (11)**   
+f/11.0 limit = EV14.148 (1/120 ISO80) - choppy   
+f/11.0 limit = EV13.148 (1/60 ISO80) - soft   
+f/11 is smooth up till EV13.148 = EV17.148 without ND (as bright as it typically gets)   
  
-**VIDEO - NIGHT (2.8)**
-f/2.8 limit = EV4.61 (1/50 ISO1600) - soft
-f/2.8 limit = EV2.88 (1/30 ISO3200) - slushy, noisy
+**VIDEO - NIGHT (2.8)**   
+f/2.8 limit = EV4.61 (1/50 ISO1600) - soft   
+f/2.8 limit = EV2.88 (1/30 ISO3200) - slushy, noisy   
  
 ______________________________________________________________________________
  
