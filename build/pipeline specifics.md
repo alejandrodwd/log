@@ -29,9 +29,9 @@ f/2.8 can be used up until EV17 -> EV13 (<13.26)
 f/11 must be used above EV17 (EV18 -> EV14 > 13.26)   
   
 **PHOTO - NIGHT (no flash)**   
-crisp         f/2.8 limit = EV4.61 (1/50 ISO1600)   
-motion blur   f/2.8 limit = EV1.29 (1/5 ISO1600)   
-long exposure f/2.8 limit = EV-1.03 (1/1 ISO1600)   
+crisp  f/2.8 limit = EV4.61 (1/50 ISO1600)   
+motion blur  f/2.8 limit = EV1.29 (1/5 ISO1600)   
+long exposure  f/2.8 limit = EV-1.03 (1/1 ISO1600)   
   
 VIDEO - DAY (2.8)    
 f/2.8 limit = EV9.2 (1/60 ISO80) - smooth   
