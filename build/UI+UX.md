@@ -100,7 +100,7 @@ USB C protocol
      
 Indicator LED Notes
 - On ending photo/video write - green flicker to show finished SD writing, saved correctly
-- During long shutters (<1/10s) - red static
+- During long shutters (>1/10s) - red static
 - During long SD writes - yellow static
 - On recording video - blinking red
 - While sleeping - nothing, only e-ink stays on
