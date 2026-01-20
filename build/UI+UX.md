@@ -100,23 +100,25 @@ USB C protocol
      
 Indicator LED Notes
 - On ending photo/video write - green flicker to show finished SD writing, saved correctly
-- During long shutters (>1/10s) - red static
-- During long SD writes - yellow static
-- On recording video - blinking red
+- During long shutters (>1/10s) - red rapid flashes
+- During long SD writes - multicolor write blips?
+- On recording video - slow blinking red
 - While sleeping - nothing, only e-ink stays on
 - On trying to fire flash but flash not recharged - rapid double yellow flash
-- Charging in progress - static yellow
+- Engage ND! Overexposed! - yellow static
+- Charging in progress - slow blinking yellow
 - Charging complete - static green
 - Detecting / setting up USB data - quick green flashes
-- Data transfer - hyper fast blips in sync with writes and reads
+- Data transfer - hyper fast blips in sync with writes and reads (multicolor)
 - On battery dying - rapid blinking red
-- On power on - 1.5s green
+- On power on - 1s green
 - On power off - 1s + 2 fast blips red
      
 E ink display Notes
 - Shows BATTERY percentage, SD percentage, focus mode, flash icon, timer icon
 - Only indicator of if camera is off or in deep sleep / standby
 - Charging - Nothing changes, battery percentage goes up
+- Shows if ND is engaged and if it should be
      
 Haptic notes
 - On photo capture - iPhone like cli-click
