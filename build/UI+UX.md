@@ -30,6 +30,10 @@ Video protocol:
 - IR and refocus every second
 - Meter light every 0.5s but only adjust ISO, shutter or aperature if scene lighting actually changes
 - Try to minimize exposure adjustment in stable lighting conditions (2-3s between adjustments)
+- For example:
+       - ISO change if light changes > 0.3 EV
+       - Shutter change if light changes > 0.6 EV
+       - Aperture change if light changes > 1.2 EV
      
 On record press
 - MCU Wake ~2ms
@@ -96,7 +100,8 @@ USB C protocol
      
 Indicator LED Notes
 - On ending photo/video write - green flicker to show finished SD writing, saved correctly
-- During long shutters (<1/10s) - red static led
+- During long shutters (<1/10s) - red static
+- During long SD writes - yellow static
 - On recording video - blinking red
 - While sleeping - nothing, only e-ink stays on
 - On trying to fire flash but flash not recharged - rapid double yellow flash
@@ -141,6 +146,11 @@ VF UI
 - Tune VF optics for typical focus distance (no way around focus breathing)
 - VF near sensor ideally
 
+Timer UI (simple, traditional)
+- Press shutter
+- Bright red pulses every 1s x9
+- Rapid puleses in last 1s
+- Fire
 
 Timelapse UI - requires external module
 - Ignores a flash press, timer press and mode press
