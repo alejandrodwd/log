@@ -122,7 +122,7 @@ Haptic notes
 - On photo capture - iPhone like cli-click
 - On video start - low thuck
 - On video end - single click
-- On no focus grab - nothing
+- On no focus grab - zzzt
 - On flash not ready - short vibrate?
 - On plugged in - thu-thuck
 
