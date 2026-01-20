@@ -5,21 +5,49 @@ Wakes from deep sleep on any button press
 On shutter press (no half press)
 - MCU Wake ~2ms
 - Trigger IR ~5ms
+- Trigger light meter (parallel)
 - MCU processes ~5ms
-- Move lens ~10ms  (to x, y, z, ∞)
-- Decide exposure ~2ms
+- Move focus ~10ms  (to x, y, z, ∞)
+- Move aperature (parallel)
 - Shutter capture ?ms
 - Write to SD card ~200ms
 - Back to sleep
+       - If in fixed focus mode:
+       - Same, without IR or focus move
+
+Optional half press button on back??? 
+- In AUTO: Hold focus and exposure to recompose and garauntee it fires
+- In fixed modes, hold exposure and give chance to recompose
+- Green led lock indication
+
+Photo protocol:
+- Avoid moving aperature unless necessary
+- Play with ISO and shutter speed before changing aperature (power draw)
+
+Video protocol:
+- Also avoid changing aperature
+- ISO and shutter ideally, aperature if necessary
+- IR and refocus every second
+- Meter light every 0.5s but only adjust ISO, shutter or aperature if scene lighting actually changes
+- Try to minimize exposure adjustment in stable lighting conditions (2-3s between adjustments)
      
 On record press
 - MCU Wake ~2ms
+- Focus + Aperature ~20ms~
 - Start recording ASAP, enter video protocol (MCU doesnt really sleep)
-- Ignore any press except end record OR focus mode, respect focus modes as normal
+- Ignore any press except end record OR focus mode
+- Light meter + exposure adjust every 0.5s
+- IR + focus adjust every 1s
 - End recording 
 - Finish SD write
 - Back to sleep
-     
+       - If in fixed focus mode:
+       - Same, without IR or focus adjust
+
+On focus mode press while recording
+- Move focus unit
+- Continue polling and adjusting aperature 
+
 On flash button
 - MCU Wake ~2ms
 - MCU refreshes e-ink display to show flash icon ~200ms
@@ -67,7 +95,8 @@ USB C protocol
 ------------------------------------------------------------------------------------------------------------
      
 Indicator LED Notes
-- On ending photo/video capture - green flicker to show finished SD writing, saved correctly
+- On ending photo/video write - green flicker to show finished SD writing, saved correctly
+- During long shutters (<1/10s) - red static led
 - On recording video - blinking red
 - While sleeping - nothing, only e-ink stays on
 - On trying to fire flash but flash not recharged - rapid double yellow flash
@@ -111,7 +140,7 @@ VF UI
 - Discrete etched EDGE LINES (no corners) for 2x and 3x zoom.
 - Tune VF optics for typical focus distance (no way around focus breathing)
 - VF near sensor ideally
-- 
+
 
 Timelapse UI - requires external module
 - Ignores a flash press, timer press and mode press
