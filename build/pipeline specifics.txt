@@ -54,7 +54,6 @@ Focus at 0.3 everything between 0.25 and 0.38 is in focus
   
 1/2.3 + f/11
 Focus at 0.39 everything between 0.2 and infinity is in focus
-  
 --------------------------------------------------------------
 1/2.0 + f/2.8
 Focus at 1.56 everything between 0.78 and infinity is in focus
@@ -63,7 +62,6 @@ Focus at 0.31 everything between 0.26 and 0.39 is in focus
   
 1/2.0 + f/11
 Focus at 0.4 everything between 0.2 and infinity is in focus
-  
 --------------------------------------------------------------
 1/1.8 + f/2.8
 Focus at 1.73 everything between 0.86 and infinity is in focus
@@ -72,7 +70,6 @@ Focus at 0.35 everything between 0.29 and 0.44 is in focus
   
 1/1.8 + f/11
 Focus at 0.45 everything between 0.23 and infinity is in focus
-  
 --------------------------------------------------------------
 1/1.7 + f/2.8
 Focus at 1.85 everything between 0.93 and infinity is in focus
@@ -81,7 +78,6 @@ Focus at 0.37 everything between 0.31 and 0.46 is in focus
   
 1/1.7 + f/11
 Focus at 0.48 everything between 0.24 and infinity is in focus
-  
 --------------------------------------------------------------
 2/3 + f/2.8
 Focus at 2.14 everything between 1.07 and infinity is in focus
@@ -91,6 +87,5 @@ Focus at 0.31 everything between 0.27 and 0.36 is in focus
   
 2/3 + f/11
 Focus at 0.55 everything between 0.28 and infinity is in focus
-  
 --------------------------------------------------------------
 No focus adjusting at f11!
