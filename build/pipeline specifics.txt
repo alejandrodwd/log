@@ -1,91 +1,44 @@
-VIDEO 
-- night = binning
-- day = subsampling (ideally we can bin too, dont want to lose softness)
-- will largely help exposure in both directions
-
-PHOTO
-- possible binning at night to gain light
-
-VIDEO PIPELINE
-- 0.64MP 10bit RAW @24fps
-- 0.8MB per frame
-- 19.2MBps
-
-PHOTO PIPELINE
-- 12.3MP 10bit RAW
-- 15.38MB per photo
-
-______________________________________________________________________________
-
-EVmax = 14.148 = ~18 - 4(ND)
-EVmin = 3.88 (night scene)
-  
-EV 14.148: need f/11.0 or smaller
-EV 3.88: need f/2.8 or larger
+VIDEO - Optical system can handle:
+maxEV at f/9: EV13.3 at 1/100, ISO 80
+maxEV at f/9: EV12.3 at 1/50, ISO 80
+minEV at f/2.0: EV2.6 at 1/24, ISO 1600
  
 PHOTO - DAY
-f/2.8 limit = EV13.26 (1/1000 ISO80)
-f/2.8 can be used up until EV17 -> EV13 (<13.26)
-f/11 must be used above EV17 (EV18 -> EV14 > 13.26)
+f/2.0 limit = EV12.3 (1/1000, ISO 80)
+f/9 limit = EV16.6 (1/1000, ISO 80)
   
 PHOTO - NIGHT (no flash)
-crisp         f/2.8 limit = EV4.61 (1/50 ISO1600)
-motion blur   f/2.8 limit = EV1.29 (1/5 ISO1600)
-long exposure f/2.8 limit = EV-1.03 (1/1 ISO1600)
+crisp    f/2.0 limit = EV3.6 (1/50, ISO 1600)
+blur     f/2.0 limit = EV0.3 (1/5, ISO 1600)
+long ex. f/2.0 limit = EV-2.0 (1, ISO 1600)
   
-VIDEO - DAY (2.8)
-f/2.8 limit = EV9.2 (1/60 ISO80) - smooth
+VIDEO - DAY (f/2.0)
+smooth   f/2.0 limit = EV8.2 at 1/60, ISO 80
+choppy   f/2.0 limit = EV9.0 at 1/100, ISO 80
   
-VIDEO - DAY (11)
-f/11.0 limit = EV14.148 (1/120 ISO80) - choppy
-f/11.0 limit = EV13.148 (1/60 ISO80) - soft
-f/11 is smooth up till EV13.148 = EV17.148 without ND (as bright as it typically gets)
- 
-VIDEO - NIGHT (2.8)
-f/2.8 limit = EV4.61 (1/50 ISO1600) - soft
-f/2.8 limit = EV2.88 (1/30 ISO3200) - slushy, noisy
+VIDEO - DAY (f/9)
+smooth   f/9 limit = EV12.6 at 1/60, ISO 80
+choppy   f/9 limit = EV13.3 at 1/100, ISO 80
+  
+VIDEO - NIGHT (f/2.0)
+smooth   f/2.0 limit = EV3.6 at 1/50, ISO 1600
+smear?   f/2.0 limit = EV2.6 at 1/24, ISO 1600
+noisy?   f/2.0 limit = EV1.6 at 1/24, ISO 3200
+  
+Additional Help: 
+NIGHT VIDEO - Binning
+NIGHT PHOTO? - Binning
+DAY VIDEO - SUBSAMPLING?
  
 ______________________________________________________________________________
  
-1/2.3 + f/2.8
-Focus at 1.5 everything between 0.75 and infinity is in focus
-Focus at 0.5 everything between 0.38 and 0.75 is in focus
-Focus at 0.3 everything between 0.25 and 0.38 is in focus
+1/1.8 + f/2.0
+Focus at 2.42 everything between 1.21 and infinity is in focus
+Focus at 0.81 everything between 0.61 and 1.21 is in focus
+Focus at 0.49 everything between 0.41 and 0.61 is in focus
+Focus at 0.35 everything between 0.31 and 0.41 is in focus
   
-1/2.3 + f/11
-Focus at 0.39 everything between 0.2 and infinity is in focus
---------------------------------------------------------------
-1/2.0 + f/2.8
-Focus at 1.56 everything between 0.78 and infinity is in focus
-Focus at 0.52 everything between 0.39 and 0.78 is in focus
-Focus at 0.31 everything between 0.26 and 0.39 is in focus
+1/1.8 + f/9
+Focus at 0.54 everything between 0.27 and infinity is in focus
   
-1/2.0 + f/11
-Focus at 0.4 everything between 0.2 and infinity is in focus
 --------------------------------------------------------------
-1/1.8 + f/2.8
-Focus at 1.73 everything between 0.86 and infinity is in focus
-Focus at 0.58 everything between 0.44 and 0.87 is in focus
-Focus at 0.35 everything between 0.29 and 0.44 is in focus
-  
-1/1.8 + f/11
-Focus at 0.45 everything between 0.23 and infinity is in focus
---------------------------------------------------------------
-1/1.7 + f/2.8
-Focus at 1.85 everything between 0.93 and infinity is in focus
-Focus at 0.62 everything between 0.46 and 0.93 is in focus
-Focus at 0.37 everything between 0.31 and 0.46 is in focus
-  
-1/1.7 + f/11
-Focus at 0.48 everything between 0.24 and infinity is in focus
---------------------------------------------------------------
-2/3 + f/2.8
-Focus at 2.14 everything between 1.07 and infinity is in focus
-Focus at 0.72 everything between 0.54 and 1.07 is in focus
-Focus at 0.43 everything between 0.36 and 0.54 is in focus
-Focus at 0.31 everything between 0.27 and 0.36 is in focus
-  
-2/3 + f/11
-Focus at 0.55 everything between 0.28 and infinity is in focus
---------------------------------------------------------------
-No focus adjusting at f11!
