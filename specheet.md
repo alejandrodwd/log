@@ -1,5 +1,5 @@
 Battery and SD capacity for:
-- 50,000 photos / 8 hours of video
+- 50,000 photos / 5 hours of video
 
 Expected battery life:
 - Heavy use = 2 days
