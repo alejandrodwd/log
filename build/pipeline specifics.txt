@@ -43,14 +43,14 @@ Focus at 0.54 everything between 0.27 and infinity is in focus
   
 --------------------------------------------------------------
 
-1/1.7 + f/2.0
-Focus at 2.56 everything between 1.28 and infinity is in focus
-Focus at 0.86 everything between 0.64 and 1.28 is in focus
-Focus at 0.51 everything between 0.43 and 0.64 is in focus
-Focus at 0.37 everything between 0.32 and 0.43 is in focus
+1/1.6 + f/2.0
+Focus at 2.74 everything between 1.37 and infinity is in focus
+Focus at 0.91 everything between 0.69 and 1.37 is in focus
+Focus at 0.55 everything between 0.46 and 0.69 is in focus
+Focus at 0.39 everything between 0.34 and 0.46 is in focus
   
-1/1.7 + f/9
-Focus at 0.57 everything between 0.28 and infinity is in focus
+1/1.6 + f/9
+Focus at 0.61 everything between 0.3 and infinity is in focus
   
 --------------------------------------------------------------
 
@@ -63,5 +63,19 @@ Focus at 0.39 everything between 0.35 and 0.44 is in focus
   
 1/1.2 + f/9
 Focus at 0.78 everything between 0.39 and infinity is in focus
+  
+--------------------------------------------------------------
+
+1 + f/2.0
+Focus at 4.32 everything between 2.16 and infinity is in focus
+Focus at 1.44 everything between 1.08 and 2.16 is in focus
+Focus at 0.87 everything between 0.72 and 1.08 is in focus
+Focus at 0.62 everything between 0.54 and 0.72 is in focus
+Focus at 0.49 everything between 0.44 and 0.54 is in focus
+Focus at 0.4 everything between 0.37 and 0.44 is in focus
+  
+1 + f/9
+Focus at 0.97 everything between 0.48 and infinity is in focus
+Focus at 0.33 everything between 0.25 and 0.48 is in focus
   
 --------------------------------------------------------------
