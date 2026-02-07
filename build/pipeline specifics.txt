@@ -28,5 +28,3 @@ noisy?   f/2.0 limit = EV1.6 at 1/24, ISO 3200
 Additional Help: 
 NIGHT VIDEO - Binning (2x2)
 NIGHT PHOTO - Binning? (2x2)
- 
-______________________________________________________________________________
