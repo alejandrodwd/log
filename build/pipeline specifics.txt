@@ -1,11 +1,6 @@
-VIDEO - Optical system can handle:
-maxEV at f/9: EV13.3 at 1/100, ISO 80
-maxEV at f/9: EV12.3 at 1/50, ISO 80
-minEV at f/2.0: EV2.6 at 1/24, ISO 1600
- 
 PHOTO - DAY
-f/2.0 limit = EV12.3 (1/1000, ISO 80)
-f/9 limit = EV16.6 (1/1000, ISO 80)
+f/2.0 limit = EV14.3 (1/4000, ISO 80)
+f/9 limit = EV18.6 (1/4000, ISO 80)
   
 PHOTO - NIGHT (no flash)
 crisp    f/2.0 limit = EV3.6 (1/50, ISO 1600)
@@ -14,16 +9,17 @@ long ex. f/2.0 limit = EV-2.0 (1, ISO 1600)
   
 VIDEO - DAY (f/2.0)
 smooth   f/2.0 limit = EV8.2 at 1/60, ISO 80
-choppy   f/2.0 limit = EV9.0 at 1/100, ISO 80
+crisp    f/2.0 limit = EV9.6 at 1/150, ISO 80
   
 VIDEO - DAY (f/9)
 smooth   f/9 limit = EV12.6 at 1/60, ISO 80
-choppy   f/9 limit = EV13.3 at 1/100, ISO 80
+crisp    f/9 limit = EV13.9 at 1/150, ISO 80
   
 VIDEO - NIGHT (f/2.0)
-smooth   f/2.0 limit = EV3.6 at 1/50, ISO 1600
-smear?   f/2.0 limit = EV2.6 at 1/24, ISO 1600
-noisy?   f/2.0 limit = EV1.6 at 1/24, ISO 3200
+smooth   f/2.0 limit = EV2.6 at 1/50, ISO 1600
+smear?   f/2.0 limit = EV1.6 at 1/24, ISO 3200
+  
+ND16 filter = +EV4
   
 Additional Help: 
 NIGHT VIDEO - Binning (2x2)
