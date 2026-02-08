@@ -15,6 +15,6 @@ This design draws a clear parallel to film:
 - Images take time to be 'revealed' on the device.
 - Until revealed, the images are in a fragile limbo, trapped inside a black box. They exist technically - but much like exposed, undeveloped film, they don't truly exist as images.
 
-Design: (if you know cameras) its a digital **Yashica T4** / **mju I**
+Design: (if you know cameras) its a digital **Yashica T4** / **Olympus mju I**
 
 *some **lossless** compression is used on the RAW sensor data to reduce system bandwidth
