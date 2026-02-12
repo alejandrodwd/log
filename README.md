@@ -1,4 +1,4 @@
-**log is stil in early design, prototype coming soon!**
+**log** 
 
 All consumer cameras work like this: 
 - The sensor spits out a stream of 0s and 1s
