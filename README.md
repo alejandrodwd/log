@@ -17,4 +17,4 @@ This design draws a clear parallel to film:
 
 Design: (if you know cameras) its a digital **Yashica T4** / **Olympus mju I**
 
-*some **lossless** compression is used on the RAW sensor data to reduce system bandwidth
+***lossless** compression is used on the RAW sensor data to reduce system bandwidth
