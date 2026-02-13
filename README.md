@@ -13,7 +13,7 @@ ISP (demosaic, noise reduction, white balance...) is done post capture and offlo
 6 mm fixed lens; dual aperture f/2.0 / f/9 via sliding brass plate (<20 ms actuation). Motorized stepper autofocus with 4 discrete positions, f/9 mode requires single focus covering 0.3 m → ∞ (5 positions total). Mechanically sliding ND filter for bright-light conditions. Phototransistors used for exposure and a TOF IR module for autofocus.
 
 **Design Philosophy:**
-Minimalist, point-and-shoot disposable form factor. Pipeline optimized for RAW capture with zero onboard ISP, maximal battery efficiency, and minimal latency between capture and sleep. Storage and power capacity practically decoupled from system operation.
+Minimalist, point-and-shoot form factor inspired by the **Yashica T4** / **Olympus mju I**. Pipeline optimized for RAW capture with zero onboard ISP, maximal battery efficiency, and minimal latency between capture and sleep. Storage and power capacity practically decoupled from system operation.
 
 **Key Notes:**
 
@@ -21,16 +21,11 @@ Minimalist, point-and-shoot disposable form factor. Pipeline optimized for RAW c
 * UI design much like a point and shoot film camera.
 
 
-Offloading the burden of image signal processing to the recieving device
-**log** is fundamentally different than other consumer cameras. 
-The heavy task of image signal processing is offloaded to the far more powerful laptop or phone that the images are eventually exported to.
-
-This makes **log** less of a camera, and more of a **sensor data logging device**, hence the name.
+Offloading the burden of image signal processing to the recieving device makes **log** fundamentally different than other consumer cameras. 
+This design makes **log** less of a camera, and more of a **sensor data logging device**, hence the name.
 
 This design draws a clear parallel to film:
 - Images take time to be 'revealed' on the device.
 - Until revealed, the images are in a fragile limbo, trapped inside a black box. They exist technically - but much like exposed, undeveloped film, they don't truly exist as images.
-
-Design: (if you know cameras) its a digital **Yashica T4** / **Olympus mju I**
 
 
