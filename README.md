@@ -3,6 +3,9 @@
 **Sensor & Data Capture:**
 Sony IMX678, 2-lane MIPI CSI-2 → directly streams RAW Bayer to FireBeetle 2 ESP32-P4 (no ISP). MCU performs lightweight compression (delta + zigzag + RLE) and writes to 256 GB SD. All high-speed differential lanes include proper GND references; low-speed lines (I²C, RESET, PWDN, XCLK, power) handled via GPIO and external regulators.
 
+**Software:**
+ISP (demosaic, noise reduction, white balance...) is done post capture and offloaded to the far more powerful laptop or phone processor. The camera feeds the device repackaged and compressed RAW10 over a high speed USBC connection. A light app/script recieves the RAW10 and runs my custom ISP to sequentially "reveal" the images on the device.
+
 **Power Management:**
 4000 mAh battery; system resides in deep sleep by default. Shutter/record input triggers wake, capture, SD write, then return to deep sleep. No display or additional electronics.
 
@@ -10,15 +13,16 @@ Sony IMX678, 2-lane MIPI CSI-2 → directly streams RAW Bayer to FireBeetle 2 ES
 6 mm fixed lens; dual aperture f/2.0 / f/9 via sliding brass plate (<20 ms actuation). Motorized stepper autofocus with 4 discrete positions, f/9 mode requires single focus covering 0.3 m → ∞ (5 positions total). Mechanically sliding ND filter for bright-light conditions. Phototransistors used for exposure and a TOF IR module for autofocus.
 
 **Design Philosophy:**
-Minimalist, point-and-shoot disposable form factor. Pipeline optimized for RAW capture with zero onboard ISP, maximal battery efficiency, and minimal latency between capture and sleep. Storage and power capacity decoupled from system operation.
+Minimalist, point-and-shoot disposable form factor. Pipeline optimized for RAW capture with zero onboard ISP, maximal battery efficiency, and minimal latency between capture and sleep. Storage and power capacity practically decoupled from system operation.
 
 **Key Notes:**
 
 * Optical/mechanical stack optimized for rapid aperture/focus transitions.
-* Exterior design much like a disposable / point and shoot film camera.
+* UI design much like a point and shoot film camera.
 
 
-**log** is fundamentally different than every other consumer camera. It writes compressed RAW directly to the SD card.
+Offloading the burden of image signal processing to the recieving device
+**log** is fundamentally different than other consumer cameras. 
 The heavy task of image signal processing is offloaded to the far more powerful laptop or phone that the images are eventually exported to.
 
 This makes **log** less of a camera, and more of a **sensor data logging device**, hence the name.
