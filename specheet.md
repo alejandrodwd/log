@@ -1,5 +1,5 @@
 SD capacity for:
-- ___ photos / ___ hours of video
+- 40,000 photos / 3 hours of video
 
 Battery capacity for:
 - ___ photos / ___ hours of video
