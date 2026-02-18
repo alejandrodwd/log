@@ -8,7 +8,7 @@ All consumer cameras work like this:
 
 **log** is fundamentally different. It writes the RAW 0s and 1s directly to the SD card.* No onboard processing. 
 The heavy task of image signal processing is offloaded to the far more powerful laptop or phone that the images are eventually exported to.
-This makes log less of a camera, and more of a sensor data logging device, hence the name.
+This makes **log** less of a camera, and more of a sensor data logging device, hence the name.
 
 This design draws a clear parallel to film:
 - Images take time to be 'revealed' on the device.
